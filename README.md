@@ -1,11 +1,5 @@
 # dialeval2-evaluation
 
-## Setup
-
-```
-$ git clone https://github.com/sakai-lab/dialeval1-evaluation --recursive
-$ cd dialeval1-evaluation
-```
 
 ## Prepare the grount truth data
 
@@ -18,17 +12,7 @@ groundtruth
 └── test_en.json
 ```
 
-## Prepare submitted runs
-
-### Unzip
-
-```
-$ unzip runs.zip
-$ mkdir runs/WUST/run0
-$ mv runs/WUST/*.json runs/WUST/run0/
-```
-
-### Check decompressed files
+## Prepare submitted runs (an example of DialEval-1)
 
 ```
 $ tree runs
